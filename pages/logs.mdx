@@ -1,0 +1,20 @@
+# Logs
+
+PHP Logs
+
+```js filename="Tail log" copy
+tail -f storage/logs/laravel.log
+
+ \Log::info([
+            'message' => $data,
+        ]);
+```
+
+```js filename="Unit Test Log" copy
+fwrite(STDERR, print_r($response['data'], true));
+```
+
+```js filename="Others" copy
+echo “test”.$test.PHP_EOL;
+echo "company".$table.PHP_EOL;
+```

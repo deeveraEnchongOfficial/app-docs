@@ -4,6 +4,8 @@
   "queueListen": "Queue Listener",
   "notificationSubscribe": "Notification Subscribe",
   "clearQueue": "Clear Queue",
+  "logs": "Logs",
+  "test": "Unit Test",
   "seeder": "Seeder (Commands)",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
