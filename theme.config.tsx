@@ -11,7 +11,7 @@ const config: DocsThemeConfig = {
   // },
   docsRepositoryBase: 'https://github.com/deeveraEnchongOfficial/app-doc',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Nextra Docs',
   },
 }
 
