@@ -18,11 +18,5 @@
     "type": "page",
     "href": "#",
     "newWindow": true
-  },
-  "contact1": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "#",
-    "newWindow": true
-  },
+  }
 }
