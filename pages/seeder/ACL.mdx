@@ -1,0 +1,13 @@
+# ACL
+
+UIACLSeederTableSeeder && UpdateAclMenuForCustomRolesTableSeeder
+
+```js filename="Deployment Command" {3} copy
+php artisan module:seed --class=System\\UIACLSeederTableSeeder Common
+php artisan module:seed --class=UpdateAclMenuForCustomRolesTableSeeder Common
+```
+
+```js filename="Dev Sever Deployment Command" {3} copy
+php artisan module:seed --class='System\\UIACLSeederTableSeeder' Common
+php artisan module:seed --class='UpdateAclMenuForCustomRolesTableSeeder' Common
+```

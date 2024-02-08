@@ -1,0 +1,13 @@
+# NotificationConfig
+
+NotificationConfigDefaultSeeder && GlobalNotificationConfigSeederForExistingCompaniesTableSeeder
+
+```js filename="Deployment Command" {3} copy
+php artisan module:seed --class=TSMNotifications\\NotificationConfigDefaultSeeder Common
+php artisan module:seed --class=TSMNotifications\\GlobalNotificationConfigSeederForExistingCompaniesTableSeeder Common
+```
+
+```js filename="Dev Sever Deployment Command" {3} copy
+php artisan module:seed --class='TSMNotifications\\NotificationConfigDefaultSeeder' Common
+php artisan module:seed --class='TSMNotifications\\GlobalNotificationConfigSeederForExistingCompaniesTableSeeder' Common
+```

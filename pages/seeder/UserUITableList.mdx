@@ -1,0 +1,13 @@
+# UserUITableList
+
+UserUITableListDefaultSeeder && UITableListDefaultSeeder
+
+```js filename="Deployment Command" {3} copy
+php artisan module:seed --class=UITableList\\UserUITableListDefaultSeeder Common
+php artisan module:seed --class=UITableList\\UITableListDefaultSeeder Common
+```
+
+```js filename="Dev Sever Deployment Command" {3} copy
+php artisan module:seed --class='UITableList\\UserUITableListDefaultSeeder' Common
+php artisan module:seed --class='UITableList\\UITableListDefaultSeeder' Common
+```
