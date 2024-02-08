@@ -16,7 +16,13 @@
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "#",
     "newWindow": true
-  }
+  },
+  "contact1": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "#",
+    "newWindow": true
+  },
 }
